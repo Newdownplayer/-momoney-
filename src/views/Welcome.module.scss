@@ -2,6 +2,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(180deg, #f1cee7d2 0%, #7ff2db 100%);
 
     >header {
         flex-shrink: 0;
@@ -10,14 +11,23 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 42px;
+        color: #51bdbd;
     }
 
     >main {
         flex-grow: 1;
+        display: flex;
+        flex-direction: column;
     }
 
     >footer {
         flex-shrink: 0;
     }
 
+}
+
+img {
+    height: 80px;
+    width: 80px;
 }
