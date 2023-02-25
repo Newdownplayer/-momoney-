@@ -1,17 +1,12 @@
 import './style.css'
 import { APP } from './APP'
-import { Bar } from './views/Bar'
-import { Foo } from './views/Foo'
 import { createApp } from 'vue'
-import { createRouter, createWebHashHistory } from 'vue-router'
-const routes = [
-    { path: '/', component: Foo },
-    { path: '/about', component: Bar },
-]
-const router = createRouter({
-    history: createWebHashHistory(),
-    routes,
-})
+import { createRouter } from 'vue-router'
+import { routes } from './config/routes'
+import { history } from './shared/history'
+
+const router = createRouter({ history, routes })
+
 const app = createApp(APP)
 app.use(router)
 app.mount('#app')
