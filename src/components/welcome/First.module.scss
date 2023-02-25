@@ -18,7 +18,13 @@
     }
 
     >.actions {
-        margin: 16px;
+        position: fixed;
+        left: 0;
+        z-index: var(--z-index-botton-nav);
+        background: var(--welcome-bg-end);
+        bottom: 0;
+        width: 100%;
+        padding: 16px;
         display: flex;
         align-items: center;
         justify-content: space-between;

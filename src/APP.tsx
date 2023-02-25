@@ -5,7 +5,7 @@ import "./App.scss"
 export const APP = defineComponent({
     setup() {
         return () => (
-            <div>
+            <div class="page">
                 <RouterView />
             </div>
         )
