@@ -1,8 +1,27 @@
 :root {
-    --welcome-card-bg: white;
-    --welcome-text:white;
-    --z-index-botton-nav:10;
-    --welcome-bg-start:#f1cee7d2;
-    --welcome-bg-end:#5ec9b3;
+    --button-bg: #5ec9b3;
+    --button-text: white;
+    --welcome-card-bg: var(--button-text);
+    --welcome-text: var(--button-text);
+    --z-index-botton-nav: 8;
+    --z-index-overlay: 16;
+    --welcome-bg-start: #f1cee7d2;
+    --welcome-bg-end: var(--button-bg);
     --transition-duration: 0.5s;
+    --button-font-size: 18px;
+    --button-radius: 8px;
+    --button-height: 48px;
+    --float-button-bg: var(--button-bg);
+    --float-button-text: var(--button-text);
+    --navbar-bg-start: var(--welcome-bg-start);
+    --navbar-bg-end: var(--welcome-bg-end);
+    --navbar-text: var(--button-text);
+    --overlay-mask-bg: rgba(0, 0, 0, 0.5);
+    --overlay-bg: var(--button-text);
+    --top-safe-area-height: 24px;
+    --overlay-user-bg: var(--button-bg);
+    --button-border-color: #ddd;
+    --amount-text: #4388b1;
+    --date-text: rgba($color: #000000, $alpha: 0.7);
+    --inputpad-bg: white;
 }
