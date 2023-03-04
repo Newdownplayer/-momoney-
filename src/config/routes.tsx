@@ -46,3 +46,4 @@ export const routes: RouteRecordRaw[] = [
         ]
     },
     { path: '/test', component: vantTest }
+]
