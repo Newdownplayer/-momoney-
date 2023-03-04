@@ -78,8 +78,8 @@ export const InputPad = defineComponent({
                             />
                         </Popup>
                     </span>
+                    <input type="text" placeholder="添加备注" maxlength={10} class={s.notes} />
                 </span>
-                <input type="text" placeholder="添加备注" maxlength={10} class={s.notes}/>
                 <span class={s.amount}>{refAmount.value}</span>
             </div>
             <div class={s.buttons}>
