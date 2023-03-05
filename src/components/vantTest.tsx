@@ -39,7 +39,7 @@ export const vantTest = defineComponent({
             }
         }
         return () => (<>
-            <van-button type="primary" onClick={showDatePicker}>选择日期</van-button>
+            <van-button onClick={showDatePicker}>选择日期</van-button>
             <van-popup v-model={refDatePickerVisible.value} position="bottom">
                 <van-date-picker v-model={refDate.value} title="选择年月日"
                     onConfirm={setDate.toString} onCancel={hideDatePicker}
